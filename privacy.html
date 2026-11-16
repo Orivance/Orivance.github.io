@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Orivance Personal Assistant, including read-only Google Gmail data access.">
+  <title>Privacy Policy · Orivance Personal Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><nav class="wrap"><a class="brand" href="./">Orivance Personal Assistant</a><div><a href="./">Home</a><a href="privacy.html">Privacy Policy</a></div></nav></header>
+  <main class="wrap">
+    <p class="eyebrow">Privacy Policy · Updated November 2026</p>
+    <h1>How Orivance Personal Assistant handles information</h1>
+    <p class="lead">Orivance Personal Assistant is private-use, self-hosted software. This policy explains the optional Gmail integration and the handling of Google user data.</p>
+    <h2>1. What Google data the app accesses</h2>
+    <p>Only after its owner consents, the application may read Gmail messages and metadata through the Gmail API with <code>https://www.googleapis.com/auth/gmail.readonly</code>. Information may include sender and recipient addresses, subject, message content, timestamps, thread IDs, and message identifiers. Routine message ingestion is designed to avoid downloading attachments.</p>
+    <h2>2. How the data is used</h2>
+    <p>The app reads incoming Gmail messages to identify important correspondence, receipts, renewals, possible bills, and follow-ups; prepare private summaries; and avoid duplicate processing. Email content is treated as untrusted data, not instructions giving the app new permissions.</p>
+    <p>The Gmail connection does not send or modify email, change labels, archive, delete, mark messages read, make purchases, or execute payments.</p>
+    <h2>3. Storage, security, and retention</h2>
+    <p>Processed message data and synchronization state are stored in the owner's private, self-hosted environment, including a local database and any local backups. Operational access is restricted to authorized owner-controlled systems and channels. OAuth credentials and refresh tokens are not placed on this public website or in its public source repository.</p>
+    <p>Stored data and backups may remain until the owner deletes them using the private system's data-management procedures. There is no promised automatic deletion schedule.</p>
+    <h2>4. Sharing and external processing</h2>
+    <p>The application does not sell Google user data or use it for advertising or data brokerage. If the owner independently enables private notifications or summaries through iMessage, selected summary content may pass through Apple's messaging infrastructure to the specifically authorized conversation. Merely authorizing Gmail does not enable those notifications.</p>
+    <p>Where local AI processing is configured, Gmail-derived content is processed in the owner's private self-hosted setup; the app does not send Gmail content to a general-purpose external AI provider to train models.</p>
+    <h2>5. Google API Services User Data Policy</h2>
+    <p>Data obtained through Google APIs is used only for the owner-authorized features described here. It is not used for advertising, unrelated profiling, or training generalized machine-learning or AI models. The application's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    <h2>6. Access, consent, and revocation</h2>
+    <p>The owner can revoke Google's authorization from <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revoking access stops future access through that OAuth grant but does not automatically remove information previously saved locally or in backups. The owner can arrange removal of that local information using private system administration.</p>
+    <p>Questions about this policy can be directed to the application owner through the contact address displayed on Google's OAuth consent screen.</p>
+    <h2>7. This public website</h2>
+    <p>This website is informational only and does not collect Google email content, host a mailbox, or use advertising or analytics scripts. GitHub Pages hosts this site and may process standard website requests under GitHub's policies.</p>
+    <h2>8. Changes</h2>
+    <p>This page will be updated when data practices materially change.</p>
+  </main>
+  <footer><div class="wrap"><span>Orivance Personal Assistant · Private-use software</span><a href="./">Home</a></div></footer>
+</body>
+</html>
